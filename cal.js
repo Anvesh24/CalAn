@@ -1,6 +1,6 @@
 
 
-  var lastoperation = 0;
+  var lastoperation = 1;
   var result = 0;
   var type =1 ;
   
@@ -278,8 +278,9 @@ $('#equal').click(function(){
 
 $('#clear').click(function(){
 
-  lastoperation =0;
+  lastoperation =1;
   type = 1; 
   result=0;
+  $("#display").text('');
 
 });

@@ -1,19 +1,40 @@
 .numb{
-  height: 40px;
-  width: 40px;
-  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgb(202, 189, 189);
   display: inline-block;
+  margin-bottom: 2px;
+  background-color: white;
+  font-size: 1.6em;
+  padding-top: 14px;
 
+}
+
+.numb:hover{
+  background-color: #E7E7E7;
+  cursor: pointer;
 }
 
 .container{
   text-align: center;
-  margin-top: 10%;
+  /*margin: 0 50px;*/
+  
+  background-color: #E7E7E7;
+  height: 100%;
+  width: 700px;
+  margin: auto;
+
 }
 
 #display{
-  height: 40px;
-  width: 120px;
-  border: 1px solid black;
+  height: 60px;
+  width: 240px;
+  border: 1px solid rgb(202, 189, 189);
   margin-top: 10px;
+  font-size: 1.6em;
+  margin: auto;
+}
+
+h2{
+  color: #F64747;
 }
