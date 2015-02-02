@@ -1,0 +1,19 @@
+.numb{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-block;
+
+}
+
+.container{
+  text-align: center;
+  margin-top: 10%;
+}
+
+#display{
+  height: 40px;
+  width: 120px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
